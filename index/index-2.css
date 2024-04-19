@@ -1,0 +1,170 @@
+.E-commerce-1 {
+  display: flex;
+  margin: auto;
+  padding-left: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 770px) {
+  .E-commerce-1 {
+    margin: 0 0 20px 0;
+  }
+}
+
+.E-commerce-1-half {
+  display: flex;
+  gap: 20px;
+}
+
+.header {
+  display: flex;
+  font-size: 11px;
+  gap: 15px;
+  color: white;
+  padding: 6px 0 0 0;
+}
+
+@media (max-width: 770px) {
+  .header {
+    display: none;
+  }
+}
+
+@media (min-width: 770px) {
+  .header button {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+  }
+}
+
+@media(max-width: 770px) {
+  .menubar {
+    position: relative;
+    cursor: pointer
+  }
+}
+
+@media (min-width: 780px) {
+  .menubar {
+    display: none;
+  }
+}
+
+
+@media (max-width: 770px) {
+  .menubar .beader {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+  }
+}
+
+@media (max-width: 770px) {
+  .menubar:hover .beader {
+    opacity: 1;
+  }
+  .menubar:active .beader {
+    opacity: 1;
+  }
+
+}
+
+@media (max-width: 770px) {
+  .beader button {
+    background-color: black;
+    border: none;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 770px) {
+  .b1 {
+    padding: 10px 15px 10px 15px;
+    background-color: hsl(218, 30%, 89%);
+  }
+
+  .b1:hover {
+    cursor: pointer;
+  }
+
+  .b1:active {
+    cursor: pointer;
+    background-color: hsl(217, 95%, 74%);
+  }
+
+  .b2 {
+    padding: 10px 15px 10px 15px;
+    background-color: hsl(218, 30%, 89%);
+  }
+
+  .b2:hover {
+    cursor: pointer;
+  }
+
+  .b2:active {
+    cursor: pointer;
+    background-color: hsl(217, 95%, 74%);
+  }
+
+  .b3 {
+    padding: 10px 15px 10px 15px;
+    background-color: hsl(218, 30%, 89%);
+  }
+
+  .b3:hover {
+    cursor: pointer;
+  }
+
+  .b3:active {
+    cursor: pointer;
+    background-color: hsl(217, 95%, 74%);
+  }
+
+  .b4 {
+    padding: 10px 15px 10px 15px;
+    background-color: hsl(218, 30%, 89%);
+  }
+
+  .b4:hover {
+    cursor: pointer;
+  }
+
+  .b4:active {
+    cursor: pointer;
+    background-color: hsl(217, 95%, 74%);
+  }
+
+  .b5 {
+    padding: 10px 15px 10px 15px;
+    background-color: hsl(218, 30%, 89%);
+  }
+
+  .b5:hover {
+    cursor: pointer;
+  }
+
+  .b5:active {
+    cursor: pointer;
+    background-color: hsl(217, 95%, 74%);
+  }
+}
+
+.E-commerce-2-half {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding-right: 20px;
+}
+
+.img-3 {
+  max-width: 3em
+}
+
+@media (max-width: 770px) {
+  .hr {
+    display: none;
+  }
+}

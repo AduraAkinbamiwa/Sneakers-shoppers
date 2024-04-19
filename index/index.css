@@ -1,0 +1,251 @@
+* {
+  font-family: "Kumbh Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: weight;
+  margin: 0;
+  padding: 0;
+}
+
+.E-commerce-body {
+  display: flex;
+  justify-content: space-around;
+  padding: 90px;
+  padding-bottom: 0;
+  align-items: center;
+}
+
+@media (max-width:770px) {
+  .E-commerce-body{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-bottom: 80px;
+  }
+}
+
+.E-commerce-semi {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-product-1 {
+  border-radius: 13px;
+  max-width: 570px;
+  max-height: 310px;
+}
+
+@media (max-width: 770px){
+  .image-product-1 {
+    /* display: fixed; */
+    border-radius: 0;
+    width: 430px;
+    height: 460px;
+  }
+}
+
+.img {
+  display: flex;
+  max-width: 4em;
+  border-radius: 8px;
+  gap: 24px;
+}
+
+@media(max-width: 770px) {
+  .img {
+    display: none;
+  }
+}
+
+.img-1 {
+  border-radius: 8px;
+  max-width: 4em;
+  max-height: 4em;
+}
+
+.img-2 {
+  border-radius: 8px;
+  max-width: 4em;
+  max-height: 4em;
+}
+
+.img-3 {
+  border-radius: 8px;
+  max-width: 4em;
+  max-height: 4em;
+}
+.img-4 {
+  border-radius: 8px;
+  max-width: 4em;
+  max-height: 4em;
+}
+
+.image-product-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.E-commerce-half-body {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 770px) {
+  .E-commerce-half-body {
+    margin-left: 20px;
+  }
+}
+
+.E-commerce-half-body h4 {
+  /* font-family: "Kumbh Sans", sans-serif; */
+  font-size: 13px;
+  color: hsl(26, 100%, 55%);
+  margin-bottom: 8px;
+  max-width: 300px;
+  letter-spacing: 4px;
+}
+
+.E-commerce-half-body h5 {
+  /* font-family: "Kumbh Sans", sans-serif; */
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 450px;
+  line-height: 24px;
+  margin-bottom: 17px;
+  color: hsl(219, 9%, 45%);
+}
+
+@media (max-width:770px) {
+  .E-commerce-half-body h5 {
+    max-width: 350px;
+  }
+}
+
+.E-commerce-half-body h2 {
+  /* font-family: "Kumbh Sans", sans-serif; */
+  margin-top: 10px;
+  max-width: 400px;
+  font-size: 29px;
+  margin-bottom: 20px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+.percentage {
+  font-family: "Kumbh Sans", sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.paragraph {
+  /* font-family: "Kumbh Sans", sans-serif; */
+  font-weight: 700;
+  font-size: 20px;
+  margin-right: 10px;
+  align-items: top;
+  margin-bottom: 5px;
+}
+
+.percentage button {
+  position: relative;
+  display: grid;
+  place-items: center;
+  /* background-color: rgb(255, 226, 205); */
+  background-color: hsl(25, 100%, 87%);
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px 10px 20px;
+  align-items: center;
+}
+
+.para {
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  color: hsl(26, 100%, 55%);
+}
+
+.my-currency {
+  font-size: 16px;
+  font-weight: 600;
+  color: hsl(219, 9%, 45%);
+  letter-spacing: 1px;
+  text-decoration: line-through;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 770px) {
+  .my-currency {
+    padding: 18px 0 0px;
+  }
+}
+
+@media (max-width: 770px) {
+  .discount {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 130px;
+  }
+}
+
+.cart-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  border-radius: 7px;
+  padding: 13px 12px 13px 12px;
+  gap: 30px;
+  max-width: 100px;
+  cursor: pointer;
+  background-color: rgb(246, 243, 243);
+}
+
+@media (max-width:770px) {
+  .cart-icon {
+    padding: 13px 200px 13px 20px;
+    gap: 120px;
+  }
+}
+
+@media (max-width:770px) {
+  .cart-buttons {
+    flex-direction: column;
+  }
+}
+
+.add-to-cart {
+  display: flex;
+  background-color: hsl(26, 100%, 55%);
+  /* max-width: 360px; */
+  gap: 20px;
+  border-radius: 7px;
+  padding: 13px 40px 13px 40px;
+  justify-content: space-around;
+}
+
+@media (max-width:770px) {
+  .add-to-cart {
+    justify-content: space-around;
+    gap: -30px;
+    padding: 13px 100px 13px 100px;
+    width: 120px;
+  }
+}
+
+.cart {
+  color: white;
+}
+
+.icon-cart {
+  max-width: 15px;
+  max-height: 15px;
+}
+
+.cart-buttons {
+  display: flex;
+  gap: 15px;
+}
